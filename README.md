@@ -1,4 +1,16 @@
 # Getafix
+We introduce our state-of-the-art tool viz Getafix, that has been specifically designed for the effective tuning of Apache Druid clusters, focusing on three key factors: configuration parameters, query tuning, and data modeling based on usage patterns. However, Getafix puts particular emphasis on the first and third factors to provide a specialized, more targeted approach.
+
+In the realm of configuration parameters, our tool ensures to optimize your Druid cluster to the best possible extent. These parameters include but are not limited to memory settings, thread pools, and query capacities. You can effortlessly adjust these parameters to the specific requirements of your Druid cluster, ensuring optimum performance and utilization.
+
+While our tool doesn't directly deal with query tuning, the second factor, it's important to note that well-configured parameters can indirectly contribute to more efficient query execution, thus enhancing overall system performance.
+
+The third factor, data modeling based on usage patterns, is another area where our tool excels. With the aid of Getafix, it comprehends your cluster's data dynamics and adaptively remodels the data based on changing usage patterns. This ensures your Druid cluster remains efficient and delivers top-notch performance, even with shifting data demands and usage trends.
+
+By combining these functionalities, the tool delivers a streamlined approach to Apache Druid cluster tuning. It simplifies the intricate process of cluster optimization and provides valuable insights into data usage patterns, leading to an exceptionally well-tuned and high-performing Apache Druid environment.
+
+##Approach##
+Its recommend to do a cluster health check on a regular interval to ensure that the cluster is always tuned even with the changing the query patterns. 
 
 A cluster review scorecard used to evaluate the configuration and operation of Apache Druid clusters.
 
